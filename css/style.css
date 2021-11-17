@@ -641,7 +641,7 @@ p.hora {
         visibility: hidden;
         transition: 0.1s;
         position: relative;
-        top: -220px;
+        top: -210px;
     }
 
     .regalo-texto{
