@@ -376,6 +376,10 @@ p.hora {
     display: none;
 }
 
+.vuela{
+    display: block;
+}
+
 /* MOBILE */
 
 .video-mobile {
@@ -501,8 +505,9 @@ p.hora {
         font-size: 50px;
         margin: 0;
         font-family: 'appareo';
-        margin-bottom: -15px;
+        margin-bottom: 5px;
         text-align: center;
+        line-height: 1;
     }
     #buscar {
         position: relative;

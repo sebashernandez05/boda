@@ -23,7 +23,7 @@ xhttp.onreadystatechange = function () {
             const texto = formulario.value.toLowerCase();
             for (let invitado of invitados) {
                 let nombre = invitado.nombre.toLowerCase();
-                let ocultar = document.querySelector('.vuela');
+                let ocultar = document.querySelector('.vuela1');
                 ocultar.style.display = 'none';
                 let apellido = invitado.apellido.toLowerCase();
                 if (nombre.lastIndexOf(texto) !== invitado.nombre && nombre.lastIndexOf(texto) !== -1) {
