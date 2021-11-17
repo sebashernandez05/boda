@@ -1,14 +1,14 @@
 [
     {
         "nombre": "Sebastian Hernandez", 
-        "nombre_primero": "Sebastian",
+        "nombre_primero": "Sebas",
         "apellido": "Hernandez",
         "acompañante": "alejandra riascos", 
         "acompañante_primero": "Alejandra"
     },
     {
         "nombre": "Carmen Mosquera", 
-        "nombre_primero": "Carmen",
+        "nombre_primero": "Tia Lucy",
         "apellido": "Mosquera",
         "acompañante": "Gumercinda Mosquera", 
         "acompañante_primero": "Gumercinda"
@@ -22,35 +22,35 @@
     },
     {
         "nombre": "Juan Mosquera", 
-        "nombre_primero": "Juan",
+        "nombre_primero": "Juan Carlos",
         "apellido": "Mosquera",
         "acompañante": "", 
         "acompañante_primero": ""
     },
     {
         "nombre": "Juan Salazar", 
-        "nombre_primero": "Juan",
+        "nombre_primero": "Flaco",
         "apellido": "Salazar",
         "acompañante": "", 
         "acompañante_primero": ""
     },
     {
         "nombre": "Jonathan Cifuentes", 
-        "nombre_primero": "Jonathan",
+        "nombre_primero": "Dante",
         "apellido": "Cifuentes",
         "acompañante": "Luisa Rubiano", 
-        "acompañante_primero": "Luisa"
+        "acompañante_primero": "Hermione"
     },
     {
         "nombre": "andres montoya", 
-        "nombre_primero": "andres",
+        "nombre_primero": "Mauro",
         "apellido": "montoya",
         "acompañante": "Sandra Morales", 
-        "acompañante_primero": "Sandra"
+        "acompañante_primero": "Mona"
     },
     {
         "nombre": "Sergio restrepo", 
-        "nombre_primero": "Sergio",
+        "nombre_primero": "Checho",
         "apellido": "restrepo",
         "acompañante": "lorena zuluaga", 
         "acompañante_primero": "lorena "
@@ -66,8 +66,8 @@
         "nombre": "Cesar vanegas", 
         "nombre_primero": "Cesar",
         "apellido": "vanegas",
-        "acompañante": "", 
-        "acompañante_primero": ""
+        "acompañante": "Astrid", 
+        "acompañante_primero": "Astro"
     },
     {
         "nombre": "Dennis", 
@@ -134,7 +134,7 @@
     },
     {
         "nombre": "katherinne Cardona", 
-        "nombre_primero": "katherinne",
+        "nombre_primero": "kathe",
         "apellido": "Cardona",
         "acompañante": "Juan Rios", 
         "acompañante_primero": "Juan"
@@ -232,7 +232,7 @@
     },
     {
         "nombre": "Diana Giraldo", 
-        "nombre_primero": "Diana",
+        "nombre_primero": "Nana",
         "apellido": "Giraldo",
         "acompañante": "Alexis Paniagua", 
         "acompañante_primero": "Alexis"
@@ -253,10 +253,10 @@
     },
     {
         "nombre": "Claudia Mosquera", 
-        "nombre_primero": "Claudia",
+        "nombre_primero": "Madre",
         "apellido": "Mosquera",
         "acompañante": "Yoana Giraldo", 
-        "acompañante_primero": "Yoana"
+        "acompañante_primero": "Yoa"
     },
     {
         "nombre": "alejandra riascos", 
@@ -291,14 +291,14 @@
         "nombre_primero": "Sandra",
         "apellido": "Morales",
         "acompañante": "andres montoya", 
-        "acompañante_primero": "andres"
+        "acompañante_primero": "Mauro"
     },
     {
         "nombre": "lorena zuluaga", 
         "nombre_primero": "lorena",
         "apellido": "zuluaga",
         "acompañante": "Sergio restrepo", 
-        "acompañante_primero": "Sergio"
+        "acompañante_primero": "Checho"
     },
     {
         "nombre": "Margarita goez", 
@@ -435,14 +435,14 @@
     },
     {
         "nombre": "Yoana Giraldo", 
-        "nombre_primero": "Yoana",
+        "nombre_primero": "Yoa",
         "apellido": "Giraldo",
         "acompañante": "Claudia Mosquera", 
         "acompañante_primero": "Claudia"
     },
     {
         "nombre": "Juan Rosero", 
-        "nombre_primero": "Juan",
+        "nombre_primero": "Rosero",
         "apellido": "Rosero",
         "acompañante": "Diana Garcia", 
         "acompañante_primero": "Diana"
