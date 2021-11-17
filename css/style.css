@@ -321,7 +321,7 @@ img.como_llegar_img {
     top: 8px;
 }
 
-a{
+a {
     margin: 0;
     font-size: 25px;
     margin-top: 15px;
@@ -331,7 +331,7 @@ a{
     padding-bottom: 5px;
 }
 
-.ubicacion{
+.ubicacion {
     border: 1px solid var(--cafe);
     border-radius: 8px;
     margin-top: -26px;
@@ -372,11 +372,11 @@ p.hora {
     font-family: 'museo';
 }
 
-.vuela1{
+.vuela1 {
     display: none;
 }
 
-.vuela{
+.vuela {
     display: block;
 }
 
@@ -567,66 +567,53 @@ p.hora {
         right: none;
         bottom: none;
     }
-    .mobile-buscador{
+    .mobile-buscador {
         display: block;
     }
-
     .contenido-arriba_texto {
         margin-left: 0;
         color: var(--cafe);
         margin-top: -5px;
         text-align: center;
     }
-
-    .vuela{
+    .vuela {
         display: none;
     }
-
-    p.invitado_nombre{
+    p.invitado_nombre {
         margin-bottom: -30px;
     }
-
-    .invitado_ubicacion{
+    .invitado_ubicacion {
         margin-left: 0px;
     }
-
-    p.nombre_lugar{
+    p.nombre_lugar {
         font-size: 15px;
     }
-
-    p.hora{
+    p.hora {
         font-size: 20px;
         padding-top: 8px;
     }
-
     img.como_llegar_img {
         height: 30px;
         right: 12px;
     }
-
-    a{
+    a {
         font-size: 18px;
         font-weight: 700;
         padding-right: 60px;
     }
-
-    .ubicacion{
+    .ubicacion {
         margin-top: 15px;
     }
-
-    .no_invitado{
+    .no_invitado {
         padding-left: 0px;
     }
-
     .vuela1 {
         display: block;
     }
-
-    .negrita{
+    .negrita {
         font-weight: bold;
         font-style: oblique;
     }
-
     .contendio-arriba_video {
         /* border: 1px solid black; */
         position: relative;
@@ -634,13 +621,104 @@ p.hora {
         padding: 10px;
         margin-top: 5px;
     }
+    .tarjeta-uno, .tarjeta-dos, .tarjeta-tres {
+        max-height: 250px;
+    }
+    .tarjeta-dos,
+    .tarjeta-uno {
+        transition: 0.1s;
+    }
+    .mostrar {
+        transition: 0.1s;
+    }
+    .ocultar {
+        visibility: hidden;
+        transition: 0.1s;
+        position: relative;
+        top: -180px;
+    }
+    .tarjeta-dos .ocultar {
+        visibility: hidden;
+        transition: 0.1s;
+        position: relative;
+        top: -220px;
+    }
+
+    .regalo-texto{
+        font-size: 12px;
+    }
+    .tarjeta-uno:hover .mostrar {
+        transition: 0.1s;
+        opacity: 0.5;
+        visibility: hidden;
+    }
+    .tarjeta-uno:hover .ocultar {
+        transition: 0.1s;
+        visibility: visible;
+    }
+
+    .tarjeta-dos:hover .mostrar {
+        transition: 0.1s;
+        opacity: 0.5;
+        visibility: hidden;
+    }
+    
+    .tarjeta-dos:hover .ocultar {
+        transition: 0.1s;
+        visibility: visible;
+    }
 }
 
-.parrafito{
+.parrafito {
     color: transparent;
 }
 
-.parrafito:hover{
+.parrafito:hover {
     display: block;
-    color:red;
+    color: red;
+}
+
+.tarjeta-uno, .tarjeta-dos, .tarjeta-tres {
+    max-height: 250px;
+}
+.tarjeta-dos,
+.tarjeta-uno {
+    transition: 0.1s;
+}
+
+.mostrar {
+    transition: 0.1s;
+}
+
+.ocultar {
+    visibility: hidden;
+    transition: 0.1s;
+    position: relative;
+    top: -180px;
+}
+
+.tarjeta-uno:hover .mostrar {
+    transition: 0.1s;
+    opacity: 0.5;
+    visibility: hidden;
+}
+
+.tarjeta-uno:hover .ocultar {
+    transition: 0.1s;
+    visibility: visible;
+}
+
+.tarjeta-dos:hover .mostrar {
+    transition: 0.1s;
+    opacity: 0.5;
+    visibility: hidden;
+}
+
+.tarjeta-dos:hover .ocultar {
+    transition: 0.1s;
+    visibility: visible;
+}
+
+.negra{
+    font-weight: bold;
 }
