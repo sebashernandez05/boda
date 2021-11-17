@@ -667,8 +667,11 @@ p.hora {
         transition: 0.1s;
         visibility: visible;
     }
-}
 
+    .vuela1{
+        display: none;
+    }
+}
 
 .tarjeta-uno, .tarjeta-dos, .tarjeta-tres {
     max-height: 250px;

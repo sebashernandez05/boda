@@ -1,10 +1,3 @@
-// const invitados = [
-//     { nombre: 'Sebastian Hernandez', nombre_primero: 'Sebastian', apellido: 'Hernandez', acompañante: 'alejandra riascos', acompañante_primero: 'Alejandra' },
-//     { nombre: 'Juan Salazar', nombre_primero: 'Juan', apellido: 'Salazar', acompañante: 'Juan Jose', acompañante_primero: 'Jose' },
-//     { nombre: 'Maria', nombre_primero: 'Maria', apellido: 'Riascos', acompañante: 'Johan Hernandez', acompañante_primero: 'Johan' },
-// ]
-
-
 const xhttp = new XMLHttpRequest();
 xhttp.open('GET', 'json/invitados.json', true);
 xhttp.send();
@@ -23,10 +16,10 @@ xhttp.onreadystatechange = function () {
             const texto = formulario.value.toLowerCase();
             for (let invitado of invitados) {
                 let nombre = invitado.nombre.toLowerCase();
-                let ocultar = document.querySelector('.vuela1');
+                let ocultar = document.querySelector('.vuela');
                 ocultar.style.display = 'none';
                 let apellido = invitado.apellido.toLowerCase();
-                if(formulario.value === ''){
+                if (formulario.value === '') {
                     resultado.innerHTML += `
                     <div class='invitado'>
                     <div invitado_texto>
@@ -36,7 +29,7 @@ xhttp.onreadystatechange = function () {
                     break;
                 }
                 if (nombre.lastIndexOf(texto) !== invitado.nombre && nombre.lastIndexOf(texto) !== -1) {
-                    if(invitado.acompañante === ""){
+                    if (invitado.acompañante === "") {
                         resultado.innerHTML += `
                     <div class='invitado'>
                     <div invitado_texto>
@@ -66,7 +59,7 @@ xhttp.onreadystatechange = function () {
                 
             `
 
-                    break;
+                        break;
                     }
                     resultado.innerHTML += `
                     <div class='invitado'>
