@@ -26,6 +26,15 @@ xhttp.onreadystatechange = function () {
                 let ocultar = document.querySelector('.vuela1');
                 ocultar.style.display = 'none';
                 let apellido = invitado.apellido.toLowerCase();
+                if(formulario.value === ''){
+                    resultado.innerHTML += `
+                    <div class='invitado'>
+                    <div invitado_texto>
+                        <p class="momento-intimo alerta">Debes ingresar tu nombre y apellido</p>
+                    </div>
+                    `
+                    break;
+                }
                 if (nombre.lastIndexOf(texto) !== invitado.nombre && nombre.lastIndexOf(texto) !== -1) {
                     if(invitado.acompañante === ""){
                         resultado.innerHTML += `

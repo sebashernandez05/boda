@@ -437,7 +437,7 @@ p.hora {
     .contenido-arriba_buscador {
         margin: 0px;
         position: relative;
-        top: 270px;
+        top: 255px;
     }
     label {
         font-size: 15px;
@@ -669,14 +669,6 @@ p.hora {
     }
 }
 
-.parrafito {
-    color: transparent;
-}
-
-.parrafito:hover {
-    display: block;
-    color: red;
-}
 
 .tarjeta-uno, .tarjeta-dos, .tarjeta-tres {
     max-height: 250px;
@@ -721,4 +713,8 @@ p.hora {
 
 .negra{
     font-weight: bold;
+}
+
+.alerta{
+    color: red;
 }
