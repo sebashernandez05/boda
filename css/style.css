@@ -1,0 +1,636 @@
+:root {
+    --fuenteHeading: 'PT Sans', sans-serif;
+    --fuenteParrafos: 'Open Sans', sans-serif;
+    --blanco: #FFFFFF;
+    --cafe: #644C26;
+    --cafe-oscuro: #1C1407;
+    --cafe-claro: #9F9586;
+    --beige: #EDEDEC;
+}
+
+@font-face {
+    font-family: 'mollitha';
+    src: url(../fonts/Mollitha.ttf);
+}
+
+@font-face {
+    font-family: 'appareo';
+    src: url(../fonts/Appareo_Medium.ttf);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuenteParrafos);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/* Globales */
+
+.contenedor {
+    width: min(90%, 120rem);
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* h1, h2, h3, h4 {
+    font-family: var(--fuenteHeading);
+    line-height: 1.2;
+} */
+
+/* h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+h4 {
+    font-size: 2.8rem;
+} */
+
+img {
+    max-width: 100%;
+}
+
+/* Utilidades */
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+/*personales*/
+
+.contenido {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: initial;
+}
+
+.contenido-arriba {
+    display: flex;
+}
+
+.contenido-arriba_texto {
+    margin-left: 67px;
+    color: var(--cafe);
+    margin-top: -5px;
+}
+
+.titulo {
+    font-family: 'mollitha';
+    font-size: 90px;
+    margin-top: 0;
+    margin-bottom: 0;
+    opacity: 1;
+    font-weight: 100;
+}
+
+.texto-uno, .texto-dos, .texto-tres {
+    font-family: 'appareo';
+}
+
+.texto-uno {
+    margin: 0;
+    margin-top: -85px;
+    margin-left: -90px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.texto-dos {
+    margin: 0;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 55px;
+}
+
+.texto-tres {
+    margin: 0;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contenido-arriba_buscador {
+    margin-top: 35px;
+}
+
+.buscador {
+    position: relative;
+}
+
+input.buscador {
+    width: 510px;
+    height: 55px;
+    border: 1px solid var(--cafe);
+    border-radius: 5px;
+    background-image: url(../img/icon-search.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+#buscar {
+    position: relative;
+    left: 455px;
+    color: transparent;
+    background: none;
+    border: none;
+    top: -40px;
+}
+
+label {
+    font-size: 15px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+.contendio-arriba_video {
+    /* border: 1px solid black; */
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-right: 35px;
+}
+
+/* TARJETAS */
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    /* padding: 50px 50px 0px 65px; */
+    padding: 20px 50px 35px 65px;
+    margin-bottom: -10px;
+    color: var(--cafe);
+    margin-top: 30px;
+}
+
+.tarjeta-uno, .tarjeta-dos {
+    border: 1px solid var(--cafe);
+    border-radius: 16px;
+    text-align: center;
+    background-color: var(--blanco);
+}
+
+.tarjeta-uno, .tarjeta-dos, .tarjeta-tres {
+    padding: 10px;
+    height: auto;
+}
+
+.img-tarjeta {
+    height: 95px;
+}
+
+/* FOOTER */
+
+.footer-texto {
+    display: flex;
+    background-color: var(--cafe);
+    color: var(--beige);
+    opacity: 1;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-footer {
+    font-size: 10px;
+    opacity: 1;
+    letter-spacing: 2.2px;
+}
+
+.texto-footer.text {
+    margin-right: 15px;
+}
+
+.texto-footer.tel {
+    margin-left: 15px;
+}
+
+.footer-img {
+    height: 15px;
+}
+
+/* NO INVITADO */
+
+.no_invitado {
+    display: flex;
+    padding-left: 65px;
+    color: var(--cafe);
+}
+
+img.calendario {
+    position: absolute;
+    height: 255px;
+}
+
+.no_invitado_imagen {
+    display: flex;
+}
+
+img.img_no_invitado {
+    width: 85px;
+    margin-right: 25px;
+}
+
+.no_invitado_izq .nombre {
+    font-size: 55px;
+    margin: 0;
+    font-family: 'appareo';
+    margin-bottom: -15px;
+}
+
+.p-imagen {
+    font-size: 29px;
+    font-family: 'museo';
+    font-weight: 900;
+    margin: 0;
+    padding-top: 10px;
+}
+
+p.momento-intimo {
+    margin: 0;
+    font-size: 24px;
+    /* margin-top: 15px; */
+    font-family: 'museo';
+    font-weight: 600;
+}
+
+/* INVITADOS */
+
+.horario, .invitado {
+    display: flex;
+}
+
+.invitado {
+    margin-left: 65px;
+    padding-bottom: 35px;
+    color: var(--cafe);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+p.invitado_nombre {
+    font-size: 53px;
+    margin: 0;
+    font-family: 'appareo';
+    margin-bottom: -15px
+}
+
+p.invitacion {
+    font-weight: 500;
+    margin: 0;
+    font-family: 'appareo';
+    font-size: 22px;
+    margin-bottom: -20px;
+}
+
+img.como_llegar_img {
+    height: 50px;
+    margin-right: 38px;
+    padding-left: 8px;
+    position: relative;
+    right: -24px;
+    top: 8px;
+}
+
+a{
+    margin: 0;
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: 'museo';
+    color: var(--cafe);
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.ubicacion{
+    border: 1px solid var(--cafe);
+    border-radius: 8px;
+    margin-top: -26px;
+}
+
+p.direccion {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'museo';
+    color: var(--cafe-oscuro);
+    margin-top: 10px;
+}
+
+.invitado_ubicacion {
+    margin-left: 28px;
+}
+
+p.nombre_lugar {
+    margin: 0;
+    font-family: 'museo';
+    font-weight: 600;
+    font-size: 23px;
+    color: var(--cafe-oscuro);
+}
+
+img.horario_img {
+    height: 40px;
+    margin-top: 8px;
+    margin-right: 25px;
+}
+
+p.hora {
+    font-size: 27px;
+    font-weight: 700;
+    margin-top: 0;
+    color: var(--cafe);
+    font-family: 'museo';
+}
+
+.vuela1{
+    display: none;
+}
+
+/* MOBILE */
+
+.video-mobile {
+    display: none;
+}
+
+.video-desktop {
+    display: block;
+}
+
+@media(max-width:768px) {
+    .contenido-arriba {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .titulo {
+        font-size: 62px;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        margin-right: 0;
+        font-weight: 500;
+    }
+    .texto-uno {
+        margin-left: 0;
+        font-size: 20px;
+        margin-bottom: -13px;
+    }
+    .texto-dos {
+        margin: 0;
+        margin-top: -25px;
+        text-align: center;
+        font-size: 40px;
+        padding-right: 0;
+    }
+    .texto-tres {
+        margin: 0;
+        margin-top: -20px;
+        text-align: center;
+        font-size: 19px;
+        font-weight: 600;
+    }
+    .video-mobile {
+        display: block;
+    }
+    .video-desktop {
+        display: none;
+    }
+    input.buscador {
+        width: 80%;
+        font-size: 16px;
+        font-family: 'museo';
+        color: var(--cafe);
+    }
+    .contenido-arriba_buscador {
+        margin: 0px;
+        position: relative;
+        top: 270px;
+    }
+    label {
+        font-size: 15px;
+        font-family: 'museo';
+        font-weight: 400;
+        position: relative;
+        color: var(--cafe-oscuro);
+    }
+    .contendio-arriba_video {
+        margin-left: 0px;
+        position: relative;
+        bottom: 150px;
+        width: 100%;
+    }
+    .tarjetas {
+        display: grid;
+        grid-template-columns: none;
+        padding: 35px;
+        margin-top: -50px;
+    }
+    .footer-texto {
+        display: flex;
+        background-color: var(--cafe);
+        color: var(--beige);
+        opacity: 1;
+        font-weight: 300;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-texto {
+        height: 150px;
+    }
+    .no_invitado {
+        display: flex;
+        flex-direction: column;
+        color: var(--cafe);
+        margin-left: 0px;
+        margin-top: -20px;
+    }
+    p.momento-intimo {
+        margin: 0;
+        font-size: 19px;
+        font-family: 'museo';
+        font-weight: 400;
+        padding: 0 25px;
+        text-align: center;
+        width: auto;
+        line-height: 1;
+    }
+    img.img_no_invitado {
+        width: 50px;
+        margin-right: 22px;
+        padding-left: 0px;
+        margin-left: 18px;
+    }
+    .p-imagen {
+        font-size: 22px;
+        font-family: 'museo';
+        font-weight: 700;
+        margin: 0;
+        line-height: 1.2;
+        letter-spacing: 0.5px;
+        margin-bottom: 20px;
+    }
+    .no_invitado_izq .nombre {
+        font-size: 50px;
+        margin: 0;
+        font-family: 'appareo';
+        margin-bottom: -15px;
+        text-align: center;
+    }
+    #buscar {
+        position: relative;
+        left: 100px;
+        color: transparent;
+        top: -40px;
+    }
+    .invitado {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 0px;
+        text-align: center;
+        margin-top: -25px;
+    }
+    p.invitacion {
+        font-weight: 700;
+        margin: 0;
+        font-family: 'museo';
+        font-size: 17px;
+        margin-bottom: -32px;
+        text-align: center;
+    }
+    /* img.como_llegar_img {
+        height: 40px;
+        padding-top: 15px;
+        margin-right: 15px;
+        margin-top: 40px;
+        margin-left: 55px;
+    } */
+    p.como_llegar {
+        margin: 0;
+        font-size: 20px;
+        margin-top: 45px;
+        font-family: 'Barlow';
+    }
+    p.direccion {
+        margin: 0;
+        width: none;
+        font-size: 17px;
+        font-weight: 700;
+        font-family: 'museo';
+        margin-top: 55px;
+        padding: 0 20px;
+    }
+    .horario {
+        padding-left: 85px;
+    }
+    img.horario_img {
+        height: 25px;
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+    img.calendario {
+        position: initial;
+        height: none;
+        margin: 0;
+        right: none;
+        bottom: none;
+    }
+    .mobile-buscador{
+        display: block;
+    }
+
+    .contenido-arriba_texto {
+        margin-left: 0;
+        color: var(--cafe);
+        margin-top: -5px;
+        text-align: center;
+    }
+
+    .vuela{
+        display: none;
+    }
+
+    p.invitado_nombre{
+        margin-bottom: -30px;
+    }
+
+    .invitado_ubicacion{
+        margin-left: 0px;
+    }
+
+    p.nombre_lugar{
+        font-size: 15px;
+    }
+
+    p.hora{
+        font-size: 20px;
+        padding-top: 8px;
+    }
+
+    img.como_llegar_img {
+        height: 30px;
+        right: 12px;
+    }
+
+    a{
+        font-size: 18px;
+        font-weight: 700;
+        padding-right: 60px;
+    }
+
+    .ubicacion{
+        margin-top: 15px;
+    }
+
+    .no_invitado{
+        padding-left: 0px;
+    }
+
+    .vuela1 {
+        display: block;
+    }
+
+    .negrita{
+        font-weight: bold;
+        font-style: oblique;
+    }
+}
+
+.parrafito{
+    color: transparent;
+}
+
+.parrafito:hover{
+    display: block;
+    color:red;
+}

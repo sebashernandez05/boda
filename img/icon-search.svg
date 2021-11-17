@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <g id="icon-search" transform="translate(-728 -784)">
+    <g id="Icon_feather-search" data-name="Icon feather-search" transform="translate(744.5 803.5)">
+      <path id="Trazado_1" data-name="Trazado 1" d="M28.5,16.5a12,12,0,1,1-12-12,12,12,0,0,1,12,12Z" fill="none" stroke="#644c26" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Trazado_2" data-name="Trazado 2" d="M31.5,31.5l-6.525-6.525" fill="none" stroke="#644c26" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+    <rect id="Rectángulo_9" data-name="Rectángulo 9" width="72" height="72" transform="translate(728 784)" fill="none"/>
+  </g>
+</svg>
