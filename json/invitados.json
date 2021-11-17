@@ -439,5 +439,19 @@
         "apellido": "Giraldo",
         "acompañante": "Claudia Mosquera", 
         "acompañante_primero": "Claudia"
+    },
+    {
+        "nombre": "Juan Rosero", 
+        "nombre_primero": "Juan",
+        "apellido": "Rosero",
+        "acompañante": "Diana Garcia", 
+        "acompañante_primero": "Diana"
+    },
+    {
+        "nombre": "Diana Garcia", 
+        "nombre_primero": "Diana",
+        "apellido": "Garcia",
+        "acompañante": "Juan Rosero", 
+        "acompañante_primero": "Juan"
     }
 ]
