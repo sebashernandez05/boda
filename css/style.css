@@ -167,9 +167,9 @@ input.buscador {
 }
 
 label {
-    font-size: 15px;
-    font-family: 'Barlow', sans-serif;
-    font-weight: 600;
+    font-size: 13px;
+    font-family: 'museo';
+    font-weight: 400;
 }
 
 .contendio-arriba_video {
@@ -443,10 +443,7 @@ p.hora {
         color: var(--cafe-oscuro);
     }
     .contendio-arriba_video {
-        margin-left: 0px;
-        position: relative;
         bottom: 150px;
-        width: 100%;
     }
     .tarjetas {
         display: grid;
@@ -623,6 +620,14 @@ p.hora {
     .negrita{
         font-weight: bold;
         font-style: oblique;
+    }
+
+    .contendio-arriba_video {
+        /* border: 1px solid black; */
+        position: relative;
+        align-self: center;
+        padding: 10px;
+        margin-top: 5px;
     }
 }
 
