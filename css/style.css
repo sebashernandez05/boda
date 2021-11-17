@@ -721,3 +721,9 @@ p.hora {
 .alerta{
     color: red;
 }
+
+p.momento-intimo.alerta {
+    max-height: 20px;
+    font-size: 21px;
+    font-family: 'museo';
+}
