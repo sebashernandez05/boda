@@ -453,5 +453,12 @@
         "apellido": "Garcia",
         "acompañante": "Juan Rosero", 
         "acompañante_primero": "Juan"
+    },
+    {
+        "nombre": "Jorge Leon", 
+        "nombre_primero": "Jorge",
+        "apellido": "Leon",
+        "acompañante": "", 
+        "acompañante_primero": ""
     }
 ]
