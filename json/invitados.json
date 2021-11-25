@@ -460,5 +460,12 @@
         "apellido": "Leon",
         "acompañante": "", 
         "acompañante_primero": ""
+    },
+    {
+        "nombre": "rigo echeverri", 
+        "nombre_primero": "rigo",
+        "apellido": "echeverri",
+        "acompañante": "esposa", 
+        "acompañante_primero": "tu esposa"
     }
 ]
