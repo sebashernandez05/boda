@@ -467,5 +467,19 @@
         "apellido": "echeverri",
         "acompañante": "esposa", 
         "acompañante_primero": "tu esposa"
+    },
+    {
+        "nombre": "Lina Marcela Alvarez", 
+        "nombre_primero": "Lina",
+        "apellido": "Alvarez",
+        "acompañante": "Laura Cecilia Roldan", 
+        "acompañante_primero": "Laura"
+    },
+    {
+        "nombre": "Laura Cecilia Roldan", 
+        "nombre_primero": "Laura",
+        "apellido": "Roldan",
+        "acompañante": "Lina Marcela Alvarez", 
+        "acompañante_primero": "Lina"
     }
 ]
